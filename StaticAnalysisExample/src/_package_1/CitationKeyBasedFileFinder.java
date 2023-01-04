@@ -37,6 +37,7 @@ public class CitationKeyBasedFileFinder {
         }
 
         String citeKey = "";
+        // this is a new line
         if (citeKeyOptional.isPresent()) {
             citeKey = citeKeyOptional.get();
         }
